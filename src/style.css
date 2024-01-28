@@ -1,0 +1,91 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif;
+}
+
+a {text-decoration: none;}
+li, ul, ol {list-style: none;}
+body {background-color: #111;}
+h1 {color: #fff;}
+
+.container {
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+}
+
+.main-block {
+	background-color: #222;
+	padding: 30px 30px;
+	border-radius: 12px;
+	width: 570px;
+	height: 230px;
+    position: absolute;
+    top: 0;
+    bottom: 85px;
+    margin: auto;
+}
+
+select {
+   -webkit-appearance:none;
+   -moz-appearance:none;
+   -ms-appearance:none;
+   appearance:none;
+   outline:0;
+   box-shadow:none;
+   border:0!important;
+   background: #333;
+   background-image: none;
+   flex: 1;
+   padding: 0 .5em;
+   color:#fff;
+   cursor:pointer;
+}
+select::-ms-expand {
+   display: none;
+}
+.select {
+   position: relative;
+   display: flex;
+   line-height: 2.8;
+   background: #333;
+   overflow: hidden;
+   border-radius: 5px;
+   margin-bottom: 14px;
+}
+.select::after {
+   content: '\25BC';
+   position: absolute;
+   top: 0;
+   right: 0;
+   padding: 0.2em 1em;
+   height: 100%;
+   background: #2b2e2e;
+   cursor:pointer;
+   pointer-events:none;
+   transition:.25s all ease;
+}
+.select:hover::after {
+   color: #9923D8;
+}
+
+input.form-control {
+	background: #333;
+	color: #fff;
+	border: 1px solid #333;
+}
+
+input.form-control::placeholder {
+	color: #fff;
+}
+
+input.form-control:focus {
+	color: #fff;
+	background: #333;
+	border: 1px solid #9923D8;
+	outline: none;
+	box-shadow: none;
+}
