@@ -21,9 +21,6 @@ The Currency Converter is a web application built with ReactJS that allows users
    - Users can select currencies from a dropdown list for both input fields.
    - The application dynamically updates the converted amount based on the selected currencies.
 
-5. **Responsive Design:**
-   - The application is designed to be responsive and user-friendly on various devices.
-
 ## Dependencies
 
 - ReactJS
