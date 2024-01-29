@@ -1,9 +1,58 @@
 # A simple currency converter on ReactJS
-Use this currency converter created on ReactJS for your own purposes. 
 
-The currency converter uses the open API of the service [freecurrencyapi.com](https://freecurrencyapi.com/) 
+## Overview
 
-The converter works flexibly, it is possible to enter values in different input fields. It's simple!
+The Currency Converter is a web application built with ReactJS that allows users to convert between different currencies. It fetches real-time exchange rate data from the Free Currency API and provides a user-friendly interface for entering amounts and selecting currencies.
+
+## Features
+
+1. **Real-Time Exchange Rates:**
+   - Utilizes the Free Currency API to fetch the latest exchange rate data.
+   - Provides up-to-date exchange rates for a variety of currencies.
+
+2. **Dual Conversion:**
+   - Allows users to convert from one currency to another with two input fields for simultaneous dual conversion.
+
+3. **User Input Handling:**
+   - Users can input values in one currency, and the equivalent value in the other currency is updated in real-time.
+   - Input fields support dynamic updates as users type.
+
+4. **Currency Selection:**
+   - Users can select currencies from a dropdown list for both input fields.
+   - The application dynamically updates the converted amount based on the selected currencies.
+
+5. **Responsive Design:**
+   - The application is designed to be responsive and user-friendly on various devices.
+
+## Dependencies
+
+- ReactJS
+- Axios for API requests
+
+## Project Structure
+
+The main components of the project include:
+
+- **App.js:** The main component managing the application's logic and layout.
+- **CurrencyInput.js:** A reusable component for rendering currency input fields.
+
+## API Integration
+
+The application uses the [Free Currency API](https://freecurrencyapi.com/) to fetch the latest exchange rate data. The API key is included in the request URL.
+
+## Usage
+
+1. **Input Fields:**
+   - Enter the amount you want to convert in one of the input fields.
+
+2. **Currency Selection:**
+   - Use the dropdown menu to select the currencies for both input fields.
+
+3. **Conversion Results:**
+   - The equivalent amount in the second currency is dynamically updated as you type or change the selected currencies.
+
+4. **Dual Conversion:**
+   - The application supports dual conversion, allowing users to convert from one currency to another simultaneously.
 
 ## How do I start using it?
 Git commad for downloading a project:
